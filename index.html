@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menuButton">Menu</div>
+    <div id="menuOptions" style="display: none;">
+        <button id="addProductButton">Add Product</button>
+        <button id="historyButton">History</button>
+        <button id="totalStockButton">Total Stock</button>
+        <button id="expenseButton">Track Expense</button>
+        <button id="refreshButton">Refresh</button>
+    </div>
+
+    <div id="productList"></div>
+    <div id="cashSection">
+        <div class="cash-box" id="mainCash">Main Cash: $0</div>
+        <div class="cash-box" id="middleCash">Middle Cash: $0</div>
+        <div class="cash-box" id="boxCash">Box Cash: $0</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
