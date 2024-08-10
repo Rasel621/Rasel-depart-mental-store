@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#menuButton {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#menuOptions {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+#menuOptions button {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#menuOptions button:hover {
+    background-color: #666;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #222;
+    border: 2px solid #555;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-item button.sell-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product-item button.restocks-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product-item button:hover {
+    opacity: 0.8;
+}
+
+#cashSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cash-box {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
